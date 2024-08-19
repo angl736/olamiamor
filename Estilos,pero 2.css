@@ -1,0 +1,37 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+.titulo {
+    text-align: center;
+}
+header {
+    background-color:azure;
+    color:black;
+    padding: 3rem 2rem;
+}
+header H1 {
+    font-size: 4rem;
+}
+header p.titulo {
+    font-size: 1.5rem;
+}
+.contenedor {
+    width: 400px;
+    margin: 0 auto;
+}
+section article {
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(120, 164, 221);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.90rem 0;
+    cursor: pointer;
+}
+section article h2, section article p {
+    margin: 1px
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,4);
+}
